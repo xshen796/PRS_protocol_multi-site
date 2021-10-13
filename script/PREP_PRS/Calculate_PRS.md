@@ -18,8 +18,8 @@ page](https://cnsgenomics.com/software/gcta).
 Clone files:
 
 ``` bash
-git clone https://github.com/xshen796/ENIGMA_mdd_prs.git
-cd ENIGMA_mdd_prs
+git clone https://github.com/xshen796/PRS_protocol_multi-site.git
+cd PRS_protocol_multi-site
 ```
 
 Set permission to files:
@@ -66,16 +66,6 @@ Please make sure genetic data is under genome build hg19/GRCh37.
 If you are not sure, simply run the PRS pipeline and it will check
 automatically.
 
-#### GWAS sumstats
-
-Please download all GWAS sumstats using the following commands.
-**Password:
-enigma**
-
-``` bash
-curl -u "MxG9YdrVLc29St7" "https://datasync.ed.ac.uk/public.php/webdav" -o data/sumstats.tar.gz
-tar -xvf data/sumstats.tar.gz -C data/
-```
 
 #### Phenotype file
 
